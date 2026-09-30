@@ -2,7 +2,9 @@
 
 ![MEV](assets/logo.svg)
 
-**M**inimal **E**valuation **V**erdicts.
+# MEV
+
+**M**odel for **E**valuating **V**erdicts.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Python 3.10+](https://img.shields.io/badge/Python-3.10%2B-green.svg)](https://www.python.org/downloads/)
