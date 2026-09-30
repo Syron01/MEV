@@ -12,8 +12,6 @@
 A small offline decision engine and file finder. It generates no text and
 makes no guesses; it returns one of the given options with a confidence score.
 
-> Türkçe sürüm: [mev-tr](https://github.com/theayzek01/mev-tr)
-
 ![MEV demo](assets/demo.svg?v=2)
 
 </div>

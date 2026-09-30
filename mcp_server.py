@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """mev MCP: decide + sfind (grep yerine semantik bulucu). stdlib-only, stdio JSON-RPC.
-Opencode: {"mcp":{"mev":{"type":"local","command":["python","C:/Users/theay/OneDrive/Desktop/Mev/mcp_server.py"],"enabled":true}}}
+Opencode: {"mcp":{"mev":{"type":"local","command":["python","<REPO_PATH>/mcp_server.py"],"enabled":true}}}
 Araclar: decide(state,questions) | sfind(query,root,top_k,mode,...) | route(text)
 """
 import json, fnmatch, os, re, stat, sys, time

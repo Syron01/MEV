@@ -14,13 +14,13 @@ hazır seçeneklerden birini ve eminlik oranını (confidence) söyler.
 **1. MCP kaydı (opencode.json, stdio — port gerekmez):**
 ```json
 {"mcp": {"mev": {"type": "local",
-  "command": ["python", "C:/Users/theay/OneDrive/Desktop/Mev/mcp_server.py"],
+  "command": ["python", "<REPO_PATH>/mcp_server.py"],
   "enabled": true}}}
 ```
 
 **2. İnsan kokpiti (HTTP, port: 47921 — başka hiçbir şeyle çakışmaz):**
 ```powershell
-python C:/Users/theay/OneDrive/Desktop/Mev/dashboard.py
+python <REPO_PATH>/dashboard.py
 # tarayıcı otomatik açılır: http://127.0.0.1:47921
 # Kapatmak için terminalde Ctrl+C. Port özellikle 47921 seçildi;
 # 8080/3000/5000/8000'deki servislere bulaşmaz.
@@ -63,7 +63,7 @@ açılışta yüklenir; yeniden başlatmadan görünmez. Kullanıcıya "mev kur"
 
 **A. "Checkout ekranı nerede?" (Flutter repo):**
 ```
-sfind(query="checkout bottom sheet", root="C:/Users/theay/OneDrive/Desktop/Ryuko-AI", top_k=8, mode="semantic")
+sfind(query="checkout bottom sheet", root="<REPO_PATH>", top_k=8, mode="semantic")
 → *_bottom_sheet.dart dosyaları olasılık sırasıyla gelir
 ```
 
